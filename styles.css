@@ -1,0 +1,156 @@
+main {
+    background-color: #fff;
+}
+
+main>div {
+    padding: 10px;
+}
+
+h1 {margin-top: 20px;}
+
+.titre1, .titre2 {
+    margin-bottom: 20px;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.titre1 {
+    font-size: 30px;
+    margin-top: 1rem;
+}
+
+.chevron li {
+     list-style-image : url(../../ressources/images/chevron.gif);
+}
+
+.situation {    
+    height: 15rem;
+    text-align: center;
+}
+
+.thumbnail {
+	padding: 10px;
+    width: 400px;
+	height: 300px;
+}
+
+.blue {
+	color: #FFF;
+	background-color: #4BB4E6;
+}
+
+.black {
+	color: #FFF;
+	background-color: #000;
+}
+
+.yellow{
+	color: #FFF;
+	background-color: #FFD200;
+}
+
+
+.btn-default {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;    
+    display: inline-block;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;    
+    border: 2px solid #000;
+    padding: .625rem 1.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-default:hover {
+    color: #fff !important;
+    background-color: #000;
+}
+
+.btn-default:focus {
+    color: #000;
+}
+#xperia{border:1px dotted black}
+p a {
+    text-decoration: underline !important;
+}
+.nav-link {cursor: pointer;}
+
+.image-thumbnail{
+    width:480px
+}
+.form-control{
+    display:block;
+    width:100%;
+    padding:.5rem .625rem;
+    font-size:1rem;
+    line-height:1.25;
+    color:#000;
+    background-color:#fff;
+    background-image:none;
+    -webkit-background-clip:padding-box;
+    background-clip:padding-box;
+    border:2px solid #ccc
+}
+.form-control::-ms-expand{
+    background-color:transparent;
+    border:0
+}
+.form-control:focus{
+    color:#000;
+    background-color:#fff;
+    border-color:#999;
+    outline:0
+}
+a.info {
+    position:relative;
+    z-index:24;
+    background-color:white;
+    color:blue;
+    text-decoration: underline
+    }
+a.info:hover, a.info:focus, a.info:active {
+    z-index:25;
+    background-color:#ff0
+    }
+a.info span {
+   /* position: absolute;
+    left: -9000px;
+    width: 0;
+    overflow: hidden;*/
+position: absolute;
+width: 1px;
+height: 1px;
+padding: 0;
+margin: -1px;
+overflow: hidden;
+clip: rect(0, 0, 0, 0);
+white-space: nowrap; /* added line */
+border: 0;
+    }
+a.info:hover span, a.info:focus span, a.info:active span {
+    display:block;
+    position:absolute;
+    top:1em; 
+    left:1em;
+    width:auto;
+    border:1px solid #0cf;
+    background-color:#cff;
+    color:#000;
+    text-align: center;
+    height: 1em;
+    clip: auto
+    }
+.error {
+	background-color: yellow;
+	color: black;
+	padding: .4rem;
+	border: 6px black dotted;
+	margin: 0.5rem .6rem;
+	} à
